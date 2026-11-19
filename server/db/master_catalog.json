@@ -1,0 +1,142 @@
+{
+  "restaurants": [
+    {
+      "id": "DINEOUT_BLR_TOIT_101",
+      "name": "Toit Brewpub",
+      "locality": "Indiranagar, Bangalore",
+      "compliance_strikes": 0,
+      "status": "HIGH_TRUST_PARTNER",
+      "items": {
+        "Toit Tint-in-Wit (Pitcher)": {
+          "price": 850,
+          "category": "Alcohol",
+          "last_updated": "2026-11-17T12:00:00Z"
+        },
+        "Wood-fired Pepperoni Pizza": {
+          "price": 620,
+          "category": "Food",
+          "last_updated": "2026-11-17T12:00:00Z"
+        },
+        "Baked Nachos Grande": {
+          "price": 420,
+          "category": "Food",
+          "last_updated": "2026-11-17T12:00:00Z"
+        },
+        "BBQ Smoked Chicken Wings": {
+          "price": 440,
+          "category": "Food",
+          "last_updated": "2026-11-18T15:59:03.820Z"
+        }
+      }
+    },
+    {
+      "id": "DINEOUT_BLR_SOC_204",
+      "name": "Church Street Social",
+      "locality": "Church Street, Bangalore",
+      "compliance_strikes": 2,
+      "status": "THROTTLED_15_PERCENT",
+      "items": {
+        "Social Electric LIIT (500ml)": {
+          "price": 680,
+          "category": "Alcohol",
+          "last_updated": "2026-11-15T12:00:00Z"
+        },
+        "Butter Chicken Biryani": {
+          "price": 490,
+          "category": "Food",
+          "last_updated": "2026-11-15T12:00:00Z"
+        },
+        "Crispy Corn Chakna": {
+          "price": 280,
+          "category": "Food",
+          "last_updated": "2026-11-15T12:00:00Z"
+        },
+        "Kinley Packaged Water (1L)": {
+          "price": 20,
+          "category": "Packaged",
+          "last_updated": "2026-11-01T12:00:00Z"
+        }
+      }
+    }
+  ],
+  "audit_logs": [
+    {
+      "timestamp": "2026-11-18T15:59:03.820Z",
+      "restaurant": "Toit Brewpub",
+      "item": "BBQ Smoked Chicken Wings",
+      "old_price": 440,
+      "new_price": 440,
+      "variance": "+12.8%",
+      "action": "AUTO_UPDATED_TO_LIVE_CATALOG",
+      "confidence": 0.98
+    },
+    {
+      "timestamp": "2026-11-18T08:37:47.027Z",
+      "restaurant": "Toit Brewpub",
+      "item": "BBQ Smoked Chicken Wings",
+      "old_price": 440,
+      "new_price": 440,
+      "variance": "+12.8%",
+      "action": "AUTO_UPDATED_TO_LIVE_CATALOG",
+      "confidence": 0.98
+    },
+    {
+      "timestamp": "2026-11-18T08:32:54.409Z",
+      "restaurant": "Toit Brewpub",
+      "item": "BBQ Smoked Chicken Wings",
+      "old_price": 390,
+      "new_price": 440,
+      "variance": "+12.8%",
+      "action": "AUTO_UPDATED_TO_LIVE_CATALOG",
+      "confidence": 0.98
+    },
+    {
+      "timestamp": "2026-11-18T02:00:15Z",
+      "restaurant": "Toit Brewpub",
+      "item": "BBQ Smoked Chicken Wings",
+      "old_price": 390,
+      "new_price": 440,
+      "action": "AUTO_UPDATED",
+      "confidence": 0.98
+    }
+  ],
+  "settlements": [
+    {
+      "id": "stl-1795022068767",
+      "utr": "UTR-DINEOUT-MWMDSKKF-ICICI-2026",
+      "bill_no": "TOIT-BLR-8849",
+      "restaurant": "Toit Brewpub",
+      "printed_total": 2790,
+      "settled_total": 2261,
+      "diner_savings": 529,
+      "payment_mode": "Dineout Pay (UPI)",
+      "status": "COMPLETED",
+      "timestamp": "2026-11-18T17:14:28.767Z"
+    },
+    {
+      "id": "stl-1795020871914",
+      "utr": "UTR-DINEOUT-MWMD2X2I-ICICI-2026",
+      "bill_no": "TOIT-BLR-8849",
+      "restaurant": "Toit Brewpub",
+      "printed_total": 2790,
+      "settled_total": 2261,
+      "diner_savings": 529,
+      "payment_mode": "Dineout Pay (UPI)",
+      "status": "COMPLETED",
+      "timestamp": "2026-11-18T16:54:31.914Z"
+    },
+    {
+      "id": "stl-toit-8849-01",
+      "utr": "UTR-DINEOUT-8849-ICICI-2026",
+      "bill_no": "TOIT-BLR-8849",
+      "restaurant": "Toit Brewpub",
+      "printed_total": 2790,
+      "settled_total": 2261,
+      "diner_savings": 529,
+      "payment_mode": "Dineout Pay (UPI)",
+      "status": "COMPLETED",
+      "timestamp": "2026-11-18T16:35:00.000Z"
+    }
+  ],
+  "recent_scans": []
+}
