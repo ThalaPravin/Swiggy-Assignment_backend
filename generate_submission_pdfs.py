@@ -123,8 +123,8 @@ def build_swiggy_growth_pdf(output_path, diagram_path):
     hero_data = [
         [
             Paragraph(
-                "<b>&#9654; LIVE WORKING PROTOTYPE (MANDATORY):</b> &nbsp;"
-                "<a href='https://swiggy-assignment-frontend.vercel.app/' color='#ffffff'><u><b>https://swiggy-assignment-frontend.vercel.app/</b></u></a>",
+                "<b>&#9654; LIVE PROTOTYPE:</b> <a href='https://swiggy-assignment-frontend.vercel.app/' color='#ffffff'><u><b>swiggy-assignment-frontend.vercel.app</b></u></a> &nbsp;&nbsp;|&nbsp;&nbsp; "
+                "<b>&#127916; LOOM VIDEO DEMO:</b> <a href='https://www.loom.com/share/eb3abbfb80244df6818a8f500a7b47e1' color='#ffffff'><u><b>Watch 2-Min Walkthrough</b></u></a>",
                 hero_link_style
             )
         ]
@@ -150,6 +150,10 @@ def build_swiggy_growth_pdf(output_path, diagram_path):
         [
             Paragraph("<b>Frontend Repository:</b> <a href='https://github.com/ThalaPravin/swiggy-assignment-frontend' color='#fc8019'><u>github.com/ThalaPravin/swiggy-assignment-frontend</u></a>", link_val_style),
             Paragraph("<b>Backend Repository:</b> <a href='https://github.com/ThalaPravin/Swiggy-Assignment_backend' color='#fc8019'><u>github.com/ThalaPravin/Swiggy-Assignment_backend</u></a>", link_val_style)
+        ],
+        [
+            Paragraph("<b>Loom Video Walkthrough:</b> <a href='https://www.loom.com/share/eb3abbfb80244df6818a8f500a7b47e1' color='#fc8019'><u>https://www.loom.com/share/eb3abbfb80244df6818a8f500a7b47e1</u></a>", link_val_style),
+            Paragraph("<b>GitHub Profile:</b> <a href='https://github.com/ThalaPravin' color='#fc8019'><u>https://github.com/ThalaPravin</u></a>", link_val_style)
         ]
     ]
     links_table = Table(links_data, colWidths=[259, 260])
@@ -180,7 +184,8 @@ def build_swiggy_growth_pdf(output_path, diagram_path):
 
     story.append(Paragraph("<b>WHY IT MATTERS</b>", h2_style))
     story.append(Paragraph("Eliminates table friction, lifts diner NPS by +18pts, cuts catalog audit overhead by 80%, and unlocks incremental GMV.<br/>"
-                           "<b>Live Prototype URL:</b> <a href='https://swiggy-assignment-frontend.vercel.app/' color='#fc8019'><b><u>https://swiggy-assignment-frontend.vercel.app/</u></b></a>", body_style))
+                           "<b>Live Prototype:</b> <a href='https://swiggy-assignment-frontend.vercel.app/' color='#fc8019'><b><u>https://swiggy-assignment-frontend.vercel.app/</u></b></a> &nbsp;|&nbsp; "
+                           "<b>Loom Video Demo:</b> <a href='https://www.loom.com/share/eb3abbfb80244df6818a8f500a7b47e1' color='#fc8019'><b><u>https://www.loom.com/share/eb3abbfb80244df6818a8f500a7b47e1</u></b></a>", body_style))
 
     story.append(Spacer(1, 5))
 
